@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "static_image_download"
   gem.homepage = "http://github.com/wiseland/static_image_download"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "fsslapal@gmail.com"
-  gem.authors = ["Wiseland"]
+  gem.summary = %Q{Get all pictures from URL}
+  gem.description = %Q{Get all pictures from URL gem}
+  gem.email = "wiseland@tut.by"
+  gem.authors = ["wiseland"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
