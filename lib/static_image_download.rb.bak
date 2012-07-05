@@ -26,8 +26,14 @@ rescue LoadError => e
 	p "No nokogiri installed"
 end
 
+#require 'hpricot'
+#require 'nokogiri'
 # Comment below 2 libraries to reduce total library loading time if you dont need them
 # If you have them installed in your system just uncomment above 2 libraries
+#require File.dirname(__FILE__) + '/libs/hpricot-0.8.6/lib/hpricot'
+#require File.dirname(__FILE__) + '/libs/nokogiri-1.5.3/lib/nokogiri'
+
+
 
 module StaticImageDownloader
 	

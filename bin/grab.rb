@@ -26,7 +26,8 @@ $debug_option = false
 			# If you don't have curb, nokogiri, hpricot gems installed in the system, they will be loading automatically from dir './libs'
 			# But it'll take some time to load libraries/ Please wait...
 			x.report("Loading libraries:") do
-				require File.dirname(__FILE__) + '/static_image_download.rb'
+				#require File.dirname(__FILE__) + '/static_image_download.rb'
+				require 'static_image_download'
 				include StaticImageDownloader
 			end
 			

@@ -1,9 +1,7 @@
 ﻿#
 #images_spec.rb
 #extern libs
-require './static_image_download/images.rb'
-require './static_image_download/parser.rb'
-require './static_image_download.rb'
+require 'static_image_download.rb'
 require 'rspec'
 
 include StaticImageDownloader
