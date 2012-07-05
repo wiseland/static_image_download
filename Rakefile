@@ -20,8 +20,9 @@ Jeweler::Tasks.new do |gem|
   gem.summary = %Q{Get all pictures from URL}
   gem.description = %Q{Get all pictures from URL gem}
   gem.email = "wiseland@tut.by"
-  gem.authors = ["wiseland"]
+  gem.authors = ["Alex Lapin"]
   # dependencies defined in Gemfile
+  gem.files = Dir.glob('lib/**/*.rb')
 end
 Jeweler::RubygemsDotOrgTasks.new
 

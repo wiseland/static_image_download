@@ -12,4 +12,7 @@ group :development do
   gem "jeweler", "~> 1.8.4"
   #gem "rcov", ">= 0"
   gem "simplecov", "~> 0.5"
+  gem "nokogiri", "~> 1.5.3"
+  gem "curb", "~> 0.8.0"
+  gem "hpricot", "~> 0.8.6"
 end
