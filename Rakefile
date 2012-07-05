@@ -23,6 +23,7 @@ Jeweler::Tasks.new do |gem|
   gem.authors = ["Alex Lapin"]
   # dependencies defined in Gemfile
   gem.files = Dir.glob('lib/**/*.rb')
+  gem.executables = ['grub.rb'] # note, it's the file name relative to `bin/`, not the project root
 end
 Jeweler::RubygemsDotOrgTasks.new
 
