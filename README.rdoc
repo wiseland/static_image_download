@@ -1,6 +1,25 @@
 = static_image_download
 
-Description goes here.
+Lib (module) for parsing URL and download all images to a specified directory. Can parse without nokogiri, hpricot, URL_EXTRACT (optional). Use curb for fast download. Possible use Net::HTTP for download.
+
+Install gem:
+
+<code>sudo gem install static_image_download</code>
+
+Use it in your project:
+
+<code>require 'static_image_download'</code>
+<code>include StaticImageDownloader</code>
+
+<code># Specify download URL in d_url variable</code>
+<code># d_url = "http://edition.cnn.com/"</code>
+
+<code># Specify download dir in d_dir variable</code>
+<code># d_dir = Dir::pwd + "/my_images"</code>
+
+<code>image_downloader = Downloader.new(d_url, d_dir)</code>
+<code>image_downloader.parse_images       # use default parameters</code>
+<code>image_downloader.parallel_download  # use default parameters</code>
 
 == Contributing to static_image_download
  
